@@ -1,0 +1,26 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="40" cy="40" r="35" fill="url(#accuracyGrad)" opacity="0.1"/>
+  
+  <!-- Target Circles -->
+  <circle cx="40" cy="40" r="30" fill="none" stroke="url(#accuracyGrad)" stroke-width="2" opacity="0.3"/>
+  <circle cx="40" cy="40" r="20" fill="none" stroke="url(#accuracyGrad)" stroke-width="2" opacity="0.5"/>
+  <circle cx="40" cy="40" r="10" fill="none" stroke="url(#accuracyGrad)" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Center Bullseye -->
+  <circle cx="40" cy="40" r="5" fill="url(#accuracyGrad)"/>
+  
+  <!-- Arrow hitting center -->
+  <path d="M15 25 L35 35 L40 40" stroke="#059669" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M35 35 L30 32 L32 37 Z" fill="#059669"/>
+  
+  <!-- Checkmark -->
+  <path d="M50 30 L55 35 L65 25" stroke="#10B981" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <defs>
+    <linearGradient id="accuracyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,33 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="40" cy="40" r="35" fill="url(#speedGrad)" opacity="0.1"/>
+  
+  <!-- Speedometer -->
+  <path d="M15 50 A25 25 0 0 1 65 50" stroke="url(#speedGrad)" stroke-width="4" fill="none"/>
+  
+  <!-- Speed marks -->
+  <line x1="20" y1="45" x2="25" y2="42" stroke="url(#speedGrad)" stroke-width="2"/>
+  <line x1="15" y1="50" x2="20" y2="50" stroke="url(#speedGrad)" stroke-width="2"/>
+  <line x1="20" y1="55" x2="25" y2="58" stroke="url(#speedGrad)" stroke-width="2"/>
+  <line x1="35" y1="65" x2="35" y2="60" stroke="url(#speedGrad)" stroke-width="2"/>
+  <line x1="45" y1="65" x2="45" y2="60" stroke="url(#speedGrad)" stroke-width="2"/>
+  <line x1="55" y1="58" x2="60" y2="55" stroke="url(#speedGrad)" stroke-width="2"/>
+  <line x1="60" y1="50" x2="65" y2="50" stroke="url(#speedGrad)" stroke-width="2"/>
+  <line x1="55" y1="42" x2="60" y2="45" stroke="url(#speedGrad)" stroke-width="2"/>
+  
+  <!-- Needle pointing to high speed -->
+  <line x1="40" y1="50" x2="55" y2="35" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="40" cy="50" r="3" fill="#F59E0B"/>
+  
+  <!-- Speed lines -->
+  <path d="M25 25 L30 30" stroke="#F093FB" stroke-width="2" opacity="0.6"/>
+  <path d="M30 20 L35 25" stroke="#F093FB" stroke-width="2" opacity="0.4"/>
+  <path d="M35 15 L40 20" stroke="#F093FB" stroke-width="2" opacity="0.8"/>
+  
+  <defs>
+    <linearGradient id="speedGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb"/>
+      <stop offset="100%" style="stop-color:#f5576c"/>
+    </linearGradient>
+  </defs>
+</svg>

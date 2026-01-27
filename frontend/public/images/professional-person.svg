@@ -1,0 +1,70 @@
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdbcb4"/>
+      <stop offset="100%" style="stop-color:#f4a6a0"/>
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a4d3a"/>
+      <stop offset="100%" style="stop-color:#2d6b4f"/>
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f8f9fa"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#suitGrad)" opacity="0.1"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="450" rx="120" ry="50" fill="url(#suitGrad)"/>
+  <rect x="140" y="300" width="120" height="200" fill="url(#suitGrad)" rx="10"/>
+  
+  <!-- Shirt -->
+  <polygon points="160,300 240,300 230,350 170,350" fill="url(#shirtGrad)"/>
+  <rect x="190" y="300" width="20" height="50" fill="url(#shirtGrad)"/>
+  
+  <!-- Tie -->
+  <polygon points="195,320 205,320 210,380 190,380" fill="#ff6b35"/>
+  
+  <!-- Arms -->
+  <ellipse cx="120" cy="350" rx="25" ry="60" fill="url(#suitGrad)"/>
+  <ellipse cx="280" cy="350" rx="25" ry="60" fill="url(#suitGrad)"/>
+  
+  <!-- Hands -->
+  <circle cx="120" cy="410" r="18" fill="url(#skinGrad)"/>
+  <circle cx="280" cy="410" r="18" fill="url(#skinGrad)"/>
+  
+  <!-- Neck -->
+  <rect x="185" y="280" width="30" height="25" fill="url(#skinGrad)" rx="15"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="200" r="80" fill="url(#skinGrad)"/>
+  
+  <!-- Hair -->
+  <path d="M 140 160 Q 200 120 260 160 Q 250 140 200 130 Q 150 140 140 160" fill="#4a4a4a"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="180" cy="190" rx="8" ry="6" fill="white"/>
+  <ellipse cx="220" cy="190" rx="8" ry="6" fill="white"/>
+  <circle cx="180" cy="190" r="4" fill="#333"/>
+  <circle cx="220" cy="190" r="4" fill="#333"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="205" rx="3" ry="8" fill="url(#skinGrad)" opacity="0.8"/>
+  
+  <!-- Mouth -->
+  <path d="M 190 220 Q 200 230 210 220" stroke="#d4a574" stroke-width="2" fill="none"/>
+  
+  <!-- Laptop -->
+  <rect x="100" y="380" width="60" height="40" fill="#333" rx="3"/>
+  <rect x="105" y="385" width="50" height="30" fill="#1a4d3a"/>
+  <rect x="110" y="390" width="40" height="20" fill="#00ff00" opacity="0.3"/>
+  
+  <!-- Documents -->
+  <rect x="270" y="370" width="40" height="50" fill="white" rx="2"/>
+  <rect x="275" y="375" width="30" height="2" fill="#ccc"/>
+  <rect x="275" y="380" width="25" height="2" fill="#ccc"/>
+  <rect x="275" y="385" width="30" height="2" fill="#ccc"/>
+</svg>

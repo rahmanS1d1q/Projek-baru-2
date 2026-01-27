@@ -1,0 +1,121 @@
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="categoryGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="categoryGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="categoryGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Central Hub -->
+  <circle cx="250" cy="150" r="40" fill="url(#categoryGradient1)" filter="url(#glow)">
+    <animate attributeName="r" values="40;45;40" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="250" y="155" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="white">AI</text>
+  
+  <!-- Category Nodes -->
+  <!-- Software Development -->
+  <g transform="translate(120, 80)">
+    <circle cx="0" cy="0" r="25" fill="url(#categoryGradient2)" opacity="0.9">
+      <animate attributeName="r" values="25;30;25" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">SOFTWARE</text>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">DEV</text>
+    <!-- Connection line -->
+    <line x1="25" y1="15" x2="105" y2="55" stroke="url(#categoryGradient1)" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Engineering -->
+  <g transform="translate(380, 80)">
+    <circle cx="0" cy="0" r="25" fill="url(#categoryGradient3)" opacity="0.9">
+      <animate attributeName="r" values="25;30;25" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">ENGINEER</text>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">ING</text>
+    <!-- Connection line -->
+    <line x1="-25" y1="15" x2="-105" y2="55" stroke="url(#categoryGradient1)" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.3s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Marketing -->
+  <g transform="translate(100, 220)">
+    <circle cx="0" cy="0" r="25" fill="url(#categoryGradient2)" opacity="0.9">
+      <animate attributeName="r" values="25;30;25" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">MARKET</text>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">ING</text>
+    <!-- Connection line -->
+    <line x1="25" y1="-15" x2="125" y2="-55" stroke="url(#categoryGradient1)" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.7s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Finance -->
+  <g transform="translate(400, 220)">
+    <circle cx="0" cy="0" r="25" fill="url(#categoryGradient3)" opacity="0.9">
+      <animate attributeName="r" values="25;30;25" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-5" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">FINANCE</text>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="white">&amp; ACCT</text>
+    <!-- Connection line -->
+    <line x1="-25" y1="-15" x2="-125" y2="-55" stroke="url(#categoryGradient1)" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Customer Service -->
+  <g transform="translate(250, 50)">
+    <circle cx="0" cy="0" r="20" fill="url(#categoryGradient2)" opacity="0.8">
+      <animate attributeName="r" values="20;25;20" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-3" text-anchor="middle" font-family="Arial" font-size="7" font-weight="bold" fill="white">CUSTOMER</text>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="7" font-weight="bold" fill="white">SERVICE</text>
+    <!-- Connection line -->
+    <line x1="0" y1="20" x2="0" y2="80" stroke="url(#categoryGradient1)" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Data Science -->
+  <g transform="translate(250, 250)">
+    <circle cx="0" cy="0" r="20" fill="url(#categoryGradient3)" opacity="0.8">
+      <animate attributeName="r" values="20;25;20" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-3" text-anchor="middle" font-family="Arial" font-size="7" font-weight="bold" fill="white">DATA</text>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="7" font-weight="bold" fill="white">SCIENCE</text>
+    <!-- Connection line -->
+    <line x1="0" y1="-20" x2="0" y2="-80" stroke="url(#categoryGradient1)" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.8s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Floating particles -->
+  <g opacity="0.4">
+    <circle cx="50" cy="100" r="2" fill="url(#categoryGradient2)">
+      <animateTransform attributeName="transform" type="translate" values="0,0;20,10;0,0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="150" r="3" fill="url(#categoryGradient3)">
+      <animateTransform attributeName="transform" type="translate" values="0,0;-15,20;0,0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="280" r="2" fill="url(#categoryGradient1)">
+      <animateTransform attributeName="transform" type="translate" values="0,0;25,-15;0,0" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

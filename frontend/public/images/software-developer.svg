@@ -1,0 +1,49 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#333"/>
+    </linearGradient>
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff00"/>
+      <stop offset="100%" style="stop-color:#00cc00"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Desk -->
+  <rect x="0" y="150" width="300" height="50" fill="#8B4513" rx="5"/>
+  
+  <!-- Monitor -->
+  <rect x="50" y="50" width="200" height="120" fill="url(#screenGrad)" rx="10"/>
+  <rect x="60" y="60" width="180" height="100" fill="#000"/>
+  
+  <!-- Code Lines -->
+  <rect x="70" y="70" width="60" height="3" fill="url(#codeGrad)"/>
+  <rect x="140" y="70" width="40" height="3" fill="#ff6b35"/>
+  <rect x="70" y="80" width="80" height="3" fill="url(#codeGrad)"/>
+  <rect x="70" y="90" width="50" height="3" fill="#667eea"/>
+  <rect x="130" y="90" width="70" height="3" fill="url(#codeGrad)"/>
+  <rect x="70" y="100" width="90" height="3" fill="#ff6b35"/>
+  <rect x="70" y="110" width="60" height="3" fill="url(#codeGrad)"/>
+  <rect x="140" y="110" width="50" height="3" fill="#667eea"/>
+  <rect x="70" y="120" width="100" height="3" fill="url(#codeGrad)"/>
+  <rect x="70" y="130" width="70" height="3" fill="#ff6b35"/>
+  <rect x="150" y="130" width="40" height="3" fill="url(#codeGrad)"/>
+  <rect x="70" y="140" width="80" height="3" fill="#667eea"/>
+  
+  <!-- Monitor Stand -->
+  <rect x="140" y="170" width="20" height="20" fill="#666"/>
+  <rect x="120" y="185" width="60" height="10" fill="#666" rx="5"/>
+  
+  <!-- Keyboard -->
+  <rect x="80" y="180" width="140" height="15" fill="#333" rx="3"/>
+  <rect x="85" y="182" width="130" height="11" fill="#555" rx="2"/>
+  
+  <!-- Mouse -->
+  <ellipse cx="240" cy="185" rx="15" ry="10" fill="#333"/>
+  
+  <!-- Coffee Cup -->
+  <ellipse cx="30" cy="140" rx="12" ry="8" fill="#8B4513"/>
+  <ellipse cx="30" cy="135" rx="10" ry="6" fill="#D2691E"/>
+  <rect x="42" y="138" width="8" height="4" fill="#8B4513" rx="2"/>
+</svg>

@@ -1,0 +1,155 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35"/>
+      <stop offset="100%" style="stop-color:#f7931e"/>
+    </linearGradient>
+    <linearGradient id="techGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a4d3a"/>
+      <stop offset="100%" style="stop-color:#2d6b4f"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#ff6b35;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background Glow -->
+  <circle cx="150" cy="150" r="120" fill="url(#glowGrad)"/>
+  
+  <!-- Central AI Core -->
+  <circle cx="150" cy="150" r="60" fill="url(#aiGrad)" opacity="0.9"/>
+  <circle cx="150" cy="150" r="45" fill="url(#techGrad)" opacity="0.8"/>
+  <circle cx="150" cy="150" r="30" fill="url(#aiGrad)"/>
+  
+  <!-- AI Text -->
+  <text x="150" y="155" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">AI</text>
+  
+  <!-- Neural Network Connections -->
+  <g stroke="url(#aiGrad)" stroke-width="3" fill="none" opacity="0.7">
+    <!-- Top connections -->
+    <line x1="150" y1="90" x2="120" y2="50">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="150" y1="90" x2="150" y2="30">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="150" y1="90" x2="180" y2="50">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    
+    <!-- Right connections -->
+    <line x1="210" y1="150" x2="250" y2="120">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="210" y1="150" x2="270" y2="150">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.9s" repeatCount="indefinite"/>
+    </line>
+    <line x1="210" y1="150" x2="250" y2="180">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.3s" repeatCount="indefinite"/>
+    </line>
+    
+    <!-- Bottom connections -->
+    <line x1="150" y1="210" x2="120" y2="250">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="150" y1="210" x2="150" y2="270">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.7s" repeatCount="indefinite"/>
+    </line>
+    <line x1="150" y1="210" x2="180" y2="250">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+    
+    <!-- Left connections -->
+    <line x1="90" y1="150" x2="50" y2="120">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="90" y1="150" x2="30" y2="150">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="90" y1="150" x2="50" y2="180">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.6s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Neural Nodes -->
+  <g fill="url(#techGrad)">
+    <!-- Top nodes -->
+    <circle cx="120" cy="50" r="8">
+      <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="30" r="8">
+      <animate attributeName="r" values="6;10;6" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="50" r="8">
+      <animate attributeName="r" values="6;10;6" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Right nodes -->
+    <circle cx="250" cy="120" r="8">
+      <animate attributeName="r" values="6;10;6" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="270" cy="150" r="8">
+      <animate attributeName="r" values="6;10;6" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="180" r="8">
+      <animate attributeName="r" values="6;10;6" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Bottom nodes -->
+    <circle cx="120" cy="250" r="8">
+      <animate attributeName="r" values="6;10;6" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="270" r="8">
+      <animate attributeName="r" values="6;10;6" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="250" r="8">
+      <animate attributeName="r" values="6;10;6" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Left nodes -->
+    <circle cx="50" cy="120" r="8">
+      <animate attributeName="r" values="6;10;6" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="30" cy="150" r="8">
+      <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="50" cy="180" r="8">
+      <animate attributeName="r" values="6;10;6" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Data Flow Particles -->
+  <g fill="url(#aiGrad)" opacity="0.8">
+    <circle cx="0" cy="0" r="3">
+      <animateMotion dur="3s" repeatCount="indefinite">
+        <path d="M 120 50 Q 135 70 150 90"/>
+      </animateMotion>
+    </circle>
+    <circle cx="0" cy="0" r="3">
+      <animateMotion dur="3.5s" repeatCount="indefinite">
+        <path d="M 250 120 Q 230 135 210 150"/>
+      </animateMotion>
+    </circle>
+    <circle cx="0" cy="0" r="3">
+      <animateMotion dur="2.8s" repeatCount="indefinite">
+        <path d="M 180 250 Q 165 230 150 210"/>
+      </animateMotion>
+    </circle>
+    <circle cx="0" cy="0" r="3">
+      <animateMotion dur="3.2s" repeatCount="indefinite">
+        <path d="M 50 180 Q 70 165 90 150"/>
+      </animateMotion>
+    </circle>
+  </g>
+  
+  <!-- Rotating Rings -->
+  <g fill="none" stroke="url(#aiGrad)" stroke-width="2" opacity="0.4">
+    <circle cx="150" cy="150" r="80">
+      <animateTransform attributeName="transform" type="rotate" values="0 150 150;360 150 150" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="150" r="100" stroke-dasharray="10,5">
+      <animateTransform attributeName="transform" type="rotate" values="360 150 150;0 150 150" dur="15s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

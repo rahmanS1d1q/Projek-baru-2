@@ -1,0 +1,30 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="120" height="40" rx="20" fill="url(#logoGrad)"/>
+  
+  <!-- Rocket Icon -->
+  <g transform="translate(8, 8)">
+    <!-- Rocket Body -->
+    <ellipse cx="12" cy="16" rx="4" ry="12" fill="#FFFFFF"/>
+    <!-- Rocket Tip -->
+    <path d="M12 4 L8 12 L16 12 Z" fill="#FFD700"/>
+    <!-- Rocket Wings -->
+    <path d="M8 20 L6 24 L10 22 Z" fill="#FF6B6B"/>
+    <path d="M16 20 L18 24 L14 22 Z" fill="#FF6B6B"/>
+    <!-- Rocket Fire -->
+    <ellipse cx="12" cy="28" rx="2" ry="4" fill="#FF4500"/>
+    <ellipse cx="12" cy="30" rx="1" ry="2" fill="#FFD700"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="32" y="16" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF">JobSorter</text>
+  <text x="32" y="28" font-family="Arial, sans-serif" font-size="6" fill="rgba(255,255,255,0.8)">AI-Powered</text>
+  
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="50%" style="stop-color:#FF6B6B"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+  </defs>
+</svg>

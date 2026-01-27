@@ -1,0 +1,147 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <rect width="600" height="400" fill="url(#gradient1)"/>
+  
+  <!-- Office Building -->
+  <rect x="450" y="120" width="120" height="200" fill="#E5E7EB" rx="8"/>
+  <rect x="460" y="130" width="15" height="15" fill="#60A5FA" rx="2"/>
+  <rect x="480" y="130" width="15" height="15" fill="#60A5FA" rx="2"/>
+  <rect x="500" y="130" width="15" height="15" fill="#60A5FA" rx="2"/>
+  <rect x="520" y="130" width="15" height="15" fill="#60A5FA" rx="2"/>
+  <rect x="540" y="130" width="15" height="15" fill="#60A5FA" rx="2"/>
+  
+  <rect x="460" y="150" width="15" height="15" fill="#60A5FA" rx="2"/>
+  <rect x="480" y="150" width="15" height="15" fill="#F59E0B" rx="2"/>
+  <rect x="500" y="150" width="15" height="15" fill="#60A5FA" rx="2"/>
+  <rect x="520" y="150" width="15" height="15" fill="#60A5FA" rx="2"/>
+  <rect x="540" y="150" width="15" height="15" fill="#F59E0B" rx="2"/>
+  
+  <rect x="460" y="170" width="15" height="15" fill="#60A5FA" rx="2"/>
+  <rect x="480" y="170" width="15" height="15" fill="#60A5FA" rx="2"/>
+  <rect x="500" y="170" width="15" height="15" fill="#F59E0B" rx="2"/>
+  <rect x="520" y="170" width="15" height="15" fill="#60A5FA" rx="2"/>
+  <rect x="540" y="170" width="15" height="15" fill="#60A5FA" rx="2"/>
+  
+  <!-- Software Developer -->
+  <g transform="translate(80, 180)">
+    <!-- Desk -->
+    <rect x="0" y="80" width="120" height="8" fill="#8B5CF6" rx="4"/>
+    <rect x="10" y="88" width="8" height="40" fill="#7C3AED"/>
+    <rect x="102" y="88" width="8" height="40" fill="#7C3AED"/>
+    
+    <!-- Monitor -->
+    <rect x="20" y="45" width="80" height="50" fill="#1F2937" rx="4"/>
+    <rect x="25" y="50" width="70" height="35" fill="#059669"/>
+    <rect x="30" y="55" width="60" height="3" fill="#10B981"/>
+    <rect x="30" y="60" width="45" height="3" fill="#10B981"/>
+    <rect x="30" y="65" width="35" height="3" fill="#10B981"/>
+    <rect x="30" y="70" width="50" height="3" fill="#10B981"/>
+    
+    <!-- Monitor Stand -->
+    <rect x="55" y="95" width="10" height="15" fill="#6B7280"/>
+    <rect x="45" y="110" width="30" height="5" fill="#6B7280" rx="2"/>
+    
+    <!-- Keyboard -->
+    <rect x="25" y="100" width="50" height="12" fill="#374151" rx="2"/>
+    
+    <!-- Person -->
+    <!-- Head -->
+    <circle cx="60" cy="25" r="12" fill="#FBBF24"/>
+    <!-- Hair -->
+    <path d="M48 20 Q60 10 72 20 Q70 15 60 15 Q50 15 48 20" fill="#92400E"/>
+    <!-- Body -->
+    <rect x="50" y="37" width="20" height="35" fill="#3B82F6" rx="10"/>
+    <!-- Arms -->
+    <rect x="35" y="45" width="15" height="8" fill="#FBBF24" rx="4"/>
+    <rect x="70" y="45" width="15" height="8" fill="#FBBF24" rx="4"/>
+    <!-- Hands on keyboard -->
+    <circle cx="40" cy="57" r="3" fill="#FBBF24"/>
+    <circle cx="80" cy="57" r="3" fill="#FBBF24"/>
+  </g>
+  
+  <!-- Marketing Professional -->
+  <g transform="translate(220, 200)">
+    <!-- Presentation Board -->
+    <rect x="0" y="20" width="80" height="60" fill="#F3F4F6" rx="4"/>
+    <rect x="5" y="25" width="70" height="50" fill="#FFFFFF"/>
+    
+    <!-- Chart on board -->
+    <rect x="15" y="35" width="8" height="20" fill="#EF4444"/>
+    <rect x="25" y="40" width="8" height="15" fill="#F59E0B"/>
+    <rect x="35" y="30" width="8" height="25" fill="#10B981"/>
+    <rect x="45" y="35" width="8" height="20" fill="#3B82F6"/>
+    <rect x="55" y="25" width="8" height="30" fill="#8B5CF6"/>
+    
+    <!-- Arrow pointing up -->
+    <path d="M65 35 L70 30 L75 35" stroke="#059669" stroke-width="2" fill="none"/>
+    <line x1="70" y1="30" x2="70" y2="50" stroke="#059669" stroke-width="2"/>
+    
+    <!-- Person -->
+    <!-- Head -->
+    <circle cx="100" cy="35" r="12" fill="#FBBF24"/>
+    <!-- Hair -->
+    <path d="M88 30 Q100 20 112 30 Q110 25 100 25 Q90 25 88 30" fill="#7C2D12"/>
+    <!-- Body -->
+    <rect x="90" y="47" width="20" height="35" fill="#DC2626" rx="10"/>
+    <!-- Arms -->
+    <rect x="75" y="55" width="15" height="8" fill="#FBBF24" rx="4"/>
+    <rect x="110" y="55" width="15" height="8" fill="#FBBF24" rx="4"/>
+    <!-- Pointing gesture -->
+    <circle cx="70" cy="63" r="3" fill="#FBBF24"/>
+    <!-- Legs -->
+    <rect x="95" y="82" width="6" height="25" fill="#1F2937"/>
+    <rect x="104" y="82" width="6" height="25" fill="#1F2937"/>
+  </g>
+  
+  <!-- Engineer -->
+  <g transform="translate(350, 190)">
+    <!-- Blueprint/Plans -->
+    <rect x="0" y="60" width="60" height="40" fill="#DBEAFE" rx="2"/>
+    <line x1="10" y1="70" x2="50" y2="70" stroke="#3B82F6" stroke-width="1"/>
+    <line x1="10" y1="75" x2="40" y2="75" stroke="#3B82F6" stroke-width="1"/>
+    <line x1="10" y1="80" x2="45" y2="80" stroke="#3B82F6" stroke-width="1"/>
+    <rect x="15" y="85" width="20" height="10" fill="none" stroke="#3B82F6" stroke-width="1"/>
+    
+    <!-- Hard hat -->
+    <ellipse cx="80" cy="25" rx="15" ry="8" fill="#F59E0B"/>
+    <rect x="65" y="25" width="30" height="5" fill="#D97706"/>
+    
+    <!-- Head -->
+    <circle cx="80" cy="35" r="12" fill="#FBBF24"/>
+    <!-- Body -->
+    <rect x="70" y="47" width="20" height="35" fill="#059669" rx="10"/>
+    <!-- Safety vest stripes -->
+    <rect x="72" y="50" width="16" height="3" fill="#FBBF24"/>
+    <rect x="72" y="60" width="16" height="3" fill="#FBBF24"/>
+    
+    <!-- Arms -->
+    <rect x="55" y="55" width="15" height="8" fill="#FBBF24" rx="4"/>
+    <rect x="90" y="55" width="15" height="8" fill="#FBBF24" rx="4"/>
+    <!-- Holding plans -->
+    <circle cx="50" cy="63" r="3" fill="#FBBF24"/>
+    <!-- Legs -->
+    <rect x="75" y="82" width="6" height="25" fill="#1F2937"/>
+    <rect x="84" y="82" width="6" height="25" fill="#1F2937"/>
+  </g>
+  
+  <!-- Floating Elements -->
+  <circle cx="100" cy="80" r="4" fill="#F59E0B" opacity="0.6"/>
+  <circle cx="300" cy="60" r="6" fill="#3B82F6" opacity="0.4"/>
+  <circle cx="500" cy="90" r="5" fill="#10B981" opacity="0.5"/>
+  
+  <!-- Decorative Lines -->
+  <path d="M50 350 Q150 330 250 350 Q350 370 450 350" stroke="url(#gradient2)" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E2E8F0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
