@@ -1,2 +1,4 @@
+[project]
+name = "backend-project-baru-2"
 [project.scripts]
 app = "app.main:app"
