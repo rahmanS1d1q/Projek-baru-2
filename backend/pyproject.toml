@@ -1,6 +1,21 @@
 [project]
 name = "backend-project-baru-2"
 version = "0.1.0"
+description = "Backend API with FastAPI and ML stack"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    "numpy",
+    "joblib",
+    "scikit-learn",
+    "nltk",
+    "Sastrawi",
+    "tensorflow",
+    "python-multipart",
+]
 
 [project.scripts]
 app = "app.main:app"
