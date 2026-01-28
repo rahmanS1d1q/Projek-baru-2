@@ -53,31 +53,57 @@ frontend/
    npm install
    ```
 
-2. **Start development server:**
+2. **Setup environment variables:**
+
+   ```bash
+   cp .env.example .env
+   # Edit .env file sesuai kebutuhan
+   ```
+
+3. **Start development server:**
 
    ```bash
    npm run dev
    ```
 
-3. **Build untuk production:**
+4. **Build untuk production:**
 
    ```bash
    npm run build
    ```
 
-4. **Preview production build:**
+5. **Preview production build:**
    ```bash
    npm run preview
    ```
 
 ## 🔧 Configuration
 
+### Environment Variables
+
+Aplikasi menggunakan environment variables untuk konfigurasi. Copy file `.env.example` ke `.env` dan sesuaikan nilai-nilainya:
+
+```bash
+cp .env.example .env
+```
+
+**Available Environment Variables:**
+
+- `VITE_API_BASE_URL` - Base URL untuk backend API (default: `http://localhost:8000`)
+
+**Environment Files:**
+
+- `.env` - Development environment (tidak di-commit ke git)
+- `.env.production` - Production environment
+- `.env.example` - Template untuk environment variables
+
 ### API Configuration
 
-File `src/api/client.ts` berisi konfigurasi untuk komunikasi dengan backend:
+File `src/api/client.ts` menggunakan environment variable untuk API URL:
 
 ```typescript
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
 ```
 
 ### Vite Proxy
